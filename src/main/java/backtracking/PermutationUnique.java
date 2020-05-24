@@ -8,6 +8,7 @@ public class PermutationUnique {
         int[] arr = {1, 1, 2, 2};
         List<List<Integer>> result = new ArrayList<>();
         PermutationUnique permutationUnique = new PermutationUnique();
+        Arrays.sort(arr);
         permutationUnique.permuteUtil(arr, 0, result);
         permutationUnique.display(result);
     }
