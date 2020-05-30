@@ -6,7 +6,7 @@ public class LevenshteinDistance {
         String str2 = "ros";
         LevenshteinDistance obj = new LevenshteinDistance();
         int res = obj.editDistance(str1, str2);
-        System.out.println("Output is:" + res);
+        System.out.println("Result is:" + res);
     }
 
     private int editDistance(String str1, String str2) {
